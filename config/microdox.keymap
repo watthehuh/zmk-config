@@ -57,14 +57,14 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &none &mkp RCLK &none &mkp LCLK &mkp SCROLL_UP    &none &none  &none &none &none
-   &none &none &none &none &mkp SCROLL_DOWN    &none &none  &none &none &none
+   &kp LCTRL &mkp RCLK &none &mkp LCLK &none    &none &none  &none &none &none
+   &none &none &none &none &none   &none &none  &none &none &none
    &none &none &none &none &none    &none &none  &none &none &none
                &none &none &none    &none &none  &none
 
         >;
                                 
-        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LC(PG_UP) LC(PG_DN)>;
       };
 
    sym_layer { 
