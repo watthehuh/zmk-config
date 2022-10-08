@@ -27,42 +27,29 @@
   quick-release;
 };
 
+
 / {
-  behaviors { 
-    td_LGUI: tap_dance_LGUI {
-      compatible = "zmk,behavior-tap-dance";
-      label = "TAP_DANCE_LGUI";
-      #binding-cells = <0>;
-      tapping-term-ms = <300>;
-      bindings = <&kp LGUI>, <&kp LS(LGUI)>;
+    behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
 
-
-    td_RGUI: tap_dance_RGUI {
-      compatible = "zmk,behavior-tap-dance";
-      label = "TAP_DANCE_RGUI";
-      #binding-cells = <0>;
-      tapping-term-ms = <300>;
-      bindings = <&kp RGUI>, <&kp LS(RGUI)>;
+    keymap {
+        compatible = "zmk,keymap";
+        default_layer {
+            bindings = <
+                &hm LCTRL A &hm LGUI S &hm LALT D &hm LSHIFT F
+            >;
+        };
     };
-
-    
-    td_RSHIFT: tap_dance_RSHIFT {
-      compatible = "zmk,behavior-tap-dance";
-      label = "TAP_DANCE_RSHIFT";
-      #binding-cells = <0>;
-      tapping-term-ms = <300>;
-      bindings = <&kp RSHIFT>, <&kt RSHIFT>;
-    };
-
-    td_LSHIFT: tap_dance_LSHIFT {
-      compatible = "zmk,behavior-tap-dance";
-      label = "TAP_DANCE_LSHIFT";
-      #binding-cells = <0>;
-      tapping-term-ms = <300>;
-      bindings = <&kp LSHIFT>, <&kt LSHIFT>;
-    };
-  };
+};
 
 
     keymap {
@@ -73,7 +60,7 @@
                       &kp TAB &kp W &kp E &kp R &kp T          &kp Y &kp U &kp I &kp O &kp P             
                       &kp A &kp S &kp D &kp F &kp G          &kp H &kp J &kp K &kp L &kp BSPC      
                       &kp LSHFT &kp X &kp C &kp V &kp B          &kp N &kp M &kp COMMA &kp DOT &kp SQT  
-                      &td_LGUI &lt NUM ESC &kp RET           &kp RET &kp SPACE &td_RGUI
+                      &none &lt NUM ESC &kp RET           &kp RET &kp SPACE &none
         >;
                                 
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -84,7 +71,7 @@
                       &kp Q &kp W &kp F &kp P &kp B          &kp J &kp L &kp U &kp Y &kp SQT             
                       &kp A &kp R &kp S &kp T &kp G          &kp M &kp N &kp E &kp I &kp O      
                       &kp Z &kp X &kp C &kp D &kp V          &kp K &kp H &kp COMMA &kp DOT &kp FSLH  
-                      &td_LGUI &lt NUM ESC &kp RET           &kp RET &kp SPACE &td_RGUI
+                      &none &lt NUM ESC &kp RET           &kp RET &kp SPACE &none
 
         >;
                                 
@@ -96,7 +83,7 @@
                             &none &none &none &none &none           &none &none &none &none &none 
                &kp TAB &kp LEFT &kp UP &kp DOWN &kp RIGHT           &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SEMI
        &kp LSHIFT &kp GRAVE &kp PG_UP &kp PG_DN &kp SPACE           &kp MINUS &kp EQUAL &kp COMMA &kp DOT &kp RSHIFT 
-                                   &kp ESC &td_LGUI &none           &kp SPACE &kp DEL &kp RALT 
+                                   &kp ESC &none &none           &kp SPACE &kp DEL &kp RALT 
         >;      
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>; 
       }; 
