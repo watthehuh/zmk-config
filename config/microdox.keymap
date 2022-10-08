@@ -57,8 +57,8 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &none &none &none &none &none    &none &none  &none &none &none
-   &none &none &none &none &none    &none &none  &none &none &none
+   &none &mkp RCLK &none &mkp LCLK &mkp SCROLL_UP    &none &none  &none &none &none
+   &none &none &none &none &mkp SCROLL_DOWN    &none &none  &none &none &none
    &none &none &none &none &none    &none &none  &none &none &none
                &none &none &none    &none &none  &none
 
