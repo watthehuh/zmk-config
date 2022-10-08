@@ -47,7 +47,7 @@
                &none &mo MOUSE &kp LSHIFT    &kp SPACE &mo SYM  &none
         >;
                                 
-        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        sensor-bindings = <&inc_dec_kp left right &inc_dec_kp DEL BKSP>;
       };
 
       mouse_layer {
