@@ -41,7 +41,7 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &none &none &none &none &none    &none &none  &none &none &none
+   &mt LSHIFT Q &none &none &none &none    &none &none  &none &none &none
    &none &none &none &none &none    &none &none  &none &none &none
    &none &none &none &none &none    &none &none  &none &none &none
                &none &none &none    &none &none  &none
