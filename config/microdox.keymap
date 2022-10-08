@@ -113,7 +113,12 @@
 
     };
 
-    sym_layer { // not being used  
+    sym_layer {
+// -----------------------------------------------------------------------------------------
+// |     |     |     |     |     |   |     |     |     |     |     |
+// |     |     |     |     |     |   |     |     |     |     |     |
+// |     |     |     |     |     |   |     |     |     |     |     |
+//             |     |     |     |   |     |     |     |
                 bindings = <   
    &none &none &none &none &none    &none &none  &none &none &none
    &none &none &none &none &none    &none &none  &none &none &none
