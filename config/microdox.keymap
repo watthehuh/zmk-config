@@ -58,7 +58,7 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &kp LCTRL    &mkp RCLK   &kp UP   &mkp LCLK &mkp SCROLL_UP     &kp NUMBER_7 &kp NUMBER_8  &kp NUMBER_9 &kp STAR  &
+   &kp LCTRL    &mkp RCLK   &kp UP   &mkp LCLK &mkp SCROLL_UP     &kp NUMBER_7 &kp NUMBER_8  &kp NUMBER_9 &kp STAR  &kp MINUS
    &kp LSHIFT   &kp LEFT    &kp DOWN &kp RIGHT &mkp SCROLL_DOWN   &kp NUMBER_4 &kp NUMBER_5  &kp NUMBER_6 &kp SLASH &kp BKSP
    &mo EXTENDED &kp HOME    &kp LALT &kp END   &kp TAB            &kp NUMBER_1 &kp NUMBER_2  &kp NUMBER_3 &kp PLUS  &kp RET
                             &none    &none     &kp ESC            &kp DOT      &kp NUMBER_0  &none
@@ -75,7 +75,7 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &kp F1  &kp F2  &kp F3   &kp F4    &kp F5        &kp EXCL      &kp AT    &kp STAR  &kp LPAR &kp RPAR
+   &kp F1  &kp F2  &kp F3   &kp F4    &kp F5        &kp AT        &kp EXCL  &kp STAR  &kp LPAR &kp RPAR
    &kp F6  &kp F7  &kp F8   &kp F9    &kp F10       &kp SEMICOLON &kp DQT   &kp EQUAL &kp BSLH &kp DEL
    &kp F11 &kp F12 &kp LBKT &kp LALT  &kp RBKT      &kp COLON     &kp APOS  &kp MINUS &kp FSLH &kp QUESTION
                    &none    &none     &kp LSHIFT    &none         &none     &none
@@ -90,9 +90,9 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &none &none &none &none &none   &none &none  &none &none &none
-   &none &none &none &none &none    &none &none  &kp INS &none &kp BKSP
-   &none &none &none &none &KP F5    &kp LNLCK &kp CAPS  &none &none &none
+   &none &none &none &none &none    &none &none  &none &none &none
+   &none &none &none &none &none    &none &none  &none &none &none
+   &none &none &none &none &none    &none &none  &none &none &none
                &none &none &none    &none &mo ETCC  &none
                 >;
 
