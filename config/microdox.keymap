@@ -91,8 +91,8 @@
 //             |     |     |     |   |     |     |     |
                 bindings = <   
    &none &none &none &none &none    &none &none  &none &none &none
-   &none &none &none &none &none    &none &none  &none &none &none
-   &none &none &none &none &none    &none &none  &none &none &none
+   &none &none &none &none &none    &none &none  &none &mkp MOVE_UP &none
+   &none &none &none &none &none    &none &none  &mkp MOVE_LEFT &mkp MOVE_DOWN &mkp MOVE_RIGHT
                &none &none &none    &none &mo ETCC  &none
                 >;
 
