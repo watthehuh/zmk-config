@@ -90,8 +90,8 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &none &none &none &none &none    &none &none  &none &none &none
-   &none &kp LG(LEFT) &kp LG(LS(LEFT)) &kp LG(RIGHT) &none    &none &kp LG(PAUSE_BREAK)  &kp INS &mkp MOVE_UP &none
+   &none &none &none &none &kp LC(PAGE_UP)    &none &none  &none &none &none
+   &none &kp LG(LEFT) &kp LG(LS(LEFT)) &kp LG(RIGHT) &kp LC(PAGE_DOWN)    &none &kp LG(PAUSE_BREAK)  &kp INS &mkp MOVE_UP &none
    &none &none &none &none &none    &none &none  &mkp MOVE_LEFT &mkp MOVE_DOWN &mkp MOVE_RIGHT
                &none &none &none    &none &mo ETCC  &none
                 >;
