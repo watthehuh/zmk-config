@@ -120,8 +120,8 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &kp LCTRL    &mkp RCLK   &kp UP   &mkp LCLK &mkp SCROLL_UP     &kp NUMBER_7 &kp NUMBER_8  &kp NUMBER_9 &kp STAR  &kp MINUS
-   &kp LSHIFT   &kp LEFT    &kp DOWN &kp RIGHT &mkp SCROLL_DOWN   &kp NUMBER_4 &kp NUMBER_5  &kp NUMBER_6 &kp SLASH &kp BKSP
+   &kp LCTRL    &mkp RCLK   &kp UP   &mkp LCLK &mmh SCROLL_UP     &kp NUMBER_7 &kp NUMBER_8  &kp NUMBER_9 &kp STAR  &kp MINUS
+   &kp LSHIFT   &kp LEFT    &kp DOWN &kp RIGHT &mmh SCROLL_DOWN   &kp NUMBER_4 &kp NUMBER_5  &kp NUMBER_6 &kp SLASH &kp BKSP
    &mo EXTENDED &kp HOME    &kp LALT &kp END   &kp TAB            &kp NUMBER_1 &kp NUMBER_2  &kp NUMBER_3 &kp PLUS  &kp RET
                             &none    &none     &kp ESC            &kp DOT      &kp NUMBER_0  &none
 
@@ -153,8 +153,8 @@
 //             |     |     |     |   |     |     |     |
                 bindings = <   
    &none &none &none &none &kp LC(PAGE_UP)                                &macro_doherty &none  &none &none &none
-   &none &kp LG(LEFT) &kp LG(LS(LEFT)) &kp LG(RIGHT) &kp LC(PAGE_DOWN)    &none &kp LG(PAUSE_BREAK)  &kp INS &mkp MOVE_UP &none
-   &none &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &kp F5                                          &kp CAPS &kp KP_NUM  &mkp MOVE_LEFT &mkp MOVE_DOWN &mkp MOVE_RIGHT
+   &none &kp LG(LEFT) &kp LG(LS(LEFT)) &kp LG(RIGHT) &kp LC(PAGE_DOWN)    &none &kp LG(PAUSE_BREAK)  &kp INS &mmv MOVE_UP &none
+   &none &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &kp F5                      &kp CAPS &kp KP_NUM  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
                &none &none &none                                          &none &mo ETCC  &none
                 >;
 
