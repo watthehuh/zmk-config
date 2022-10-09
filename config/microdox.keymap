@@ -55,9 +55,9 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &hm LCTRL Q &kp W &kp E &kp R &kp T    &kp Y &kp U  &kp I &kp O &hm LGUI P
-   &kp A &kp S &kp D &kp F &kp G    &kp H &kp J  &kp K &kp L &kp BKSP
-   &kp Z &kp X &kp C &kp V &kp B    &kp N &kp M  &kp COMMA &kp DOT &kp RET
+   &hm LCTRL Q &kp W &kp E &kp R &kp T       &kp Y     &kp U    &kp I     &kp O   &hm LGUI P
+   &kp A       &kp S &kp D &kp F &kp G       &kp H     &kp J    &kp K     &kp L   &kp BKSP
+   &kp Z       &kp X &kp C &kp V &kp B       &kp N     &kp M    &kp COMMA &kp DOT &kp RET
                &none &mo MOUSE &kp LSHIFT    &kp SPACE &mo SYM  &none
         >;
                                 
@@ -88,12 +88,12 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &kp F1  &kp F2  &kp F3   &kp F4    &kp F5        &kp AT        &kp EXCL  &kp STAR  &kp LPAR &kp RPAR
-   &kp F6  &kp F7  &kp F8   &kp F9    &kp F10       &kp SEMICOLON &kp DQT   &kp EQUAL &kp BSLH &kp DEL
-   &kp F11 &kp F12 &kp LBKT &kp LALT  &kp RBKT      &kp COLON     &kp APOS  &kp MINUS &kp FSLH &kp QUESTION
-                   &none    &none     &kp LSHIFT    &kp SPACE     &none     &none
+   &kp F1  &kp F2  &kp F3   &kp F4    &kp F5            &kp AT        &kp EXCL  &kp STAR  &kp LPAR &kp RPAR
+   &kp F6  &kp F7  &kp F8   &kp F9    &kp F10           &kp SEMICOLON &kp DQT   &kp EQUAL &kp BSLH &kp DEL
+   &kp F11 &kp F12 &kp LBKT &kp LALT  &kp RBKT          &kp COLON     &kp APOS  &kp MINUS &kp FSLH &kp QUESTION
+                   &none    &none     &kp LSHIFT        &kp SPACE     &none     &none
         >;      
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>; 
+            sensor-bindings = <&inc_dec_kp DEL BKSP &inc_dec_kp PG_UP PG_DN>; 
       }; 
 
     extended_layer {
