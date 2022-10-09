@@ -39,42 +39,42 @@
        
         combo_alias {
         timeout-ms = <50>;
-        key-positions = <7 8>;
+        key-positions = <6 7>;
         bindings = <&kp AT>;
         };
         combo_exclamation { 
         timeout-ms = <50>;
-        key-positions=<6 7>;
+        key-positions=<5 6>;
         bindings = <&kp EXCL>;
         };
         combo_minus { 
         timeout-ms = <50>;
-        key-positions=<28 29>;
+        key-positions=<27 28>;
         bindings = <&kp MINUS>;
         };
         combo_exclamation { 
         timeout-ms = <50>;
-        key-positions=<27 28>;
+        key-positions=<26 27>;
         bindings = <&kp COLON>;
         };
         combo_delete { 
         timeout-ms = <50>;
-        key-positions=<19 20>;
+        key-positions=<18 19>;
         bindings = <&kp LC(BKSP)>;
         };
         combo_PLUS { 
         timeout-ms = <50>;
-        key-positions=<26 27>;
+        key-positions=<25 26>;
         bindings = <&kp PLUS>;
         };
         combo_slash { 
         timeout-ms = <50>;
-        key-positions=<16 17>;
+        key-positions=<15 16>;
         bindings = <&kp SLASH>;
         };
         combo_times { 
         timeout-ms = <50>;
-        key-positions=<8 9>;
+        key-positions=<7 8>;
         bindings = <&kp STAR>;
         };
     };
