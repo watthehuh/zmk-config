@@ -78,7 +78,7 @@
    &kp F1  &kp F2  &kp F3   &kp F4    &kp F5        &kp AT        &kp EXCL  &kp STAR  &kp LPAR &kp RPAR
    &kp F6  &kp F7  &kp F8   &kp F9    &kp F10       &kp SEMICOLON &kp DQT   &kp EQUAL &kp BSLH &kp DEL
    &kp F11 &kp F12 &kp LBKT &kp LALT  &kp RBKT      &kp COLON     &kp APOS  &kp MINUS &kp FSLH &kp QUESTION
-                   &none    &none     &kp LSHIFT    &none         &none     &none
+                   &none    &none     &kp LSHIFT    &kp SPACE     &none     &none
         >;      
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>; 
       }; 
@@ -90,10 +90,10 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &none &none &none &none &kp LC(PAGE_UP)    &none &none  &none &none &none
+   &none &none &none &none &kp LC(PAGE_UP)    .                           &none &none  &none &none &none
    &none &kp LG(LEFT) &kp LG(LS(LEFT)) &kp LG(RIGHT) &kp LC(PAGE_DOWN)    &none &kp LG(PAUSE_BREAK)  &kp INS &mkp MOVE_UP &none
-   &none &none &none &none &none    &none &none  &mkp MOVE_LEFT &mkp MOVE_DOWN &mkp MOVE_RIGHT
-               &none &none &none    &none &mo ETCC  &none
+   &none &none &none &none &none                                          &none &none  &mkp MOVE_LEFT &mkp MOVE_DOWN &mkp MOVE_RIGHT
+               &none &none &none                                          &none &mo ETCC  &none
                 >;
 
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
