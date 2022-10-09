@@ -50,7 +50,7 @@
         combo_minus { 
         timeout-ms = <50>;
         key-positions=<28 29>;
-        bindings = <&kp minus>;
+        bindings = <&kp MINUS>;
         };
         combo_exclamation { 
         timeout-ms = <50>;
