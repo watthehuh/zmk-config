@@ -93,7 +93,7 @@
    &none &none &none &none &none    &none &none  &none &none &none
    &none &none &none &none &none    &none &none  &none &none &none
    &none &none &none &none &none    &none &none  &none &none &none
-               &none &none &none    &none &none  &none
+               &none &none &none    &none &none  &mo ETCC
                 >;
 
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -107,7 +107,7 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &none &none &none &none &none    &none &none  &none &none &none
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3    &none &none  &none &none &none
    &none &none &none &none &none    &none &none  &none &none &none
    &none &none &none &none &none    &none &none  &none &none &none
                &none &none &none    &none &none  &none
