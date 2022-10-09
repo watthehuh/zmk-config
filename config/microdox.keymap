@@ -137,7 +137,7 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                 bindings = <   
-   &kp F1  &kp F2  &kp F3   &kp F4    &kp F5            &kp AT        &kp EXCL  &kp STAR  &kp LPAR &kp RPAR
+   &kp F1  &kp F2  &kp F3   &kp F4    &kp F5            &kp EXCL      &kp AT    &kp STAR  &kp LPAR &kp RPAR
    &kp F6  &kp F7  &kp F8   &kp F9    &kp F10           &kp SEMICOLON &kp DQT   &kp EQUAL &kp BSLH &kp DEL
    &kp F11 &kp F12 &kp LBKT &kp LALT  &kp RBKT          &kp COLON     &kp APOS  &kp MINUS &kp FSLH &kp QUESTION
                    &none    &none     &kp LSHIFT        &kp SPACE     &none     &none
